@@ -1,4 +1,4 @@
-import random
+from random import randint
 
 def bubbleSort(li):
 	# for i in range (0, len(li)-1):
@@ -27,7 +27,7 @@ def bubbleSort(li):
 # li = [5,7,2,6,86,34,8,23]
 li = []
 for i in range (0, 100):
-	li.append(random.randint(0, 10000))
+	li.append(randint(0, 10000))
 print 'Unsorted:'
 print li
 print
